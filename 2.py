@@ -1001,6 +1001,10 @@ input = """1-13 r: gqdrspndrpsrjfjx
 
 from collections import defaultdict
 lines = input.split('\n')
+
+
+# Question 1
+
 total_valid = 0
 for line in lines:
     policy, key, password = line.split(' ')
@@ -1015,6 +1019,8 @@ for line in lines:
         total_valid += 1
 print(total_valid)
 
+
+# Question 2
 
 from collections import defaultdict
 lines = input.split('\n')

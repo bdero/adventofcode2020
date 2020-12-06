@@ -322,9 +322,11 @@ input = """....#............#.###...#.#.#.
 .#..#..#.#.#...#....##...#.##.#
 ##...#..#....#.........##......"""
 
-
 lines = input.split("\n")
 width=len(lines[0])
+
+# Question 1
+
 x = 0
 total = 0
 for line in lines:
@@ -332,6 +334,9 @@ for line in lines:
         total += 1
     x += 3
 print(total)
+
+
+# Question 2
 
 import math
 def slopecheck(dx, dy):
